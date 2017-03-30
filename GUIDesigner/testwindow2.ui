@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>808</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="AxelPanel" name="axelpanel1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>113</y>
+     <width>197</width>
+     <height>127</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="AxelPanel" name="axelpanel2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>111</y>
+     <width>185</width>
+     <height>129</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>0</red>
+     <green>255</green>
+     <blue>19</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="AxelPanel" name="axelpanel3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>343</y>
+     <width>167</width>
+     <height>137</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>1</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="AxelPanel" name="axelpanel4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>313</y>
+     <width>199</width>
+     <height>165</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>253</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="AxelPanel" name="axelpanel7">
+   <property name="geometry">
+    <rect>
+     <x>594</x>
+     <y>338</y>
+     <width>197</width>
+     <height>127</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="AxelPanel" name="axelpanel6">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>250</y>
+     <width>183</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>74</red>
+     <green>65</green>
+     <blue>42</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="AxelPanel" name="axelpanel5">
+   <property name="geometry">
+    <rect>
+     <x>592</x>
+     <y>10</y>
+     <width>199</width>
+     <height>165</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>253</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="AxelPanel" name="axelpanel8">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>22</y>
+     <width>167</width>
+     <height>137</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>1</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>AxelPanel</class>
+   <extends>QWidget</extends>
+   <header>axelpanel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

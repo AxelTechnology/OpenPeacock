@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testAllWidgets</class>
+ <widget class="QMainWindow" name="testAllWidgets">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0,0,0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="AxelPanel" name="axelpanelBG">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="widgetVisible">
+     <bool>true</bool>
+    </property>
+    <property name="autoHideMsec">
+     <number>0</number>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>25</red>
+      <green>25</green>
+      <blue>25</blue>
+     </color>
+    </property>
+    <property name="id" stdset="0">
+     <string>axelpanelBG</string>
+    </property>
+    <widget class="AxelPanel" name="axelpanel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>390</y>
+       <width>381</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="axelpanel_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>240</y>
+       <width>40</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>5</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>18</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="MultiImage" name="multiImage">
+     <property name="geometry">
+      <rect>
+       <x>688</x>
+       <y>20</y>
+       <width>91</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="imageList">
+      <stringlist>
+       <string>:/VirginRadio.png</string>
+      </stringlist>
+     </property>
+     <property name="controllerValueId" stdset="0">
+      <string>logo_index</string>
+     </property>
+    </widget>
+    <widget class="QKnob" name="qknob">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>276</y>
+       <width>159</width>
+       <height>133</height>
+      </rect>
+     </property>
+     <property name="value">
+      <double>5.100000000000000</double>
+     </property>
+     <property name="minValue">
+      <double>-10.000000000000000</double>
+     </property>
+     <property name="maxValue">
+      <double>10.000000000000000</double>
+     </property>
+     <property name="stepValue">
+      <double>0.500000000000000</double>
+     </property>
+     <property name="units">
+      <string>dB</string>
+     </property>
+     <property name="showValueSign">
+      <bool>false</bool>
+     </property>
+     <property name="leftLabel">
+      <string>L</string>
+     </property>
+     <property name="rightLabel">
+      <string>R</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>248</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="knobModeInt">
+      <number>0</number>
+     </property>
+     <property name="knobMode">
+      <enum>QKnob::QKnobMode_INSTANTVALUE</enum>
+     </property>
+     <property name="controllerValueId" stdset="0">
+      <string>knob_value</string>
+     </property>
+    </widget>
+    <widget class="OnairclockWidget" name="onairclockWidget">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>54</x>
+       <y>152</y>
+       <width>231</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="colorFiveSec">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>28</blue>
+      </color>
+     </property>
+     <property name="colorSec">
+      <color>
+       <red>0</red>
+       <green>181</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorFont">
+      <color>
+       <red>179</red>
+       <green>178</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="axelpanel_3">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>26</y>
+       <width>141</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>8</blue>
+      </color>
+     </property>
+     <widget class="AxelPanel" name="axelpanel_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>121</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="colorBg">
+       <color>
+        <red>104</red>
+        <green>104</green>
+        <blue>104</blue>
+       </color>
+      </property>
+      <widget class="AxelLabel" name="axelLabel_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="textPrimary">
+        <string>VuMeter 3</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>177</red>
+         <green>177</green>
+         <blue>177</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>176</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="controllerTextId" stdset="0">
+        <string>vu3_label_text</string>
+       </property>
+       <property name="controllerValueId" stdset="0">
+        <string>vu3_label_value</string>
+       </property>
+      </widget>
+      <widget class="VuMeter" name="vuMeter3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>101</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+        </font>
+       </property>
+       <property name="maxValue">
+        <double>12.000000000000000</double>
+       </property>
+       <property name="color1MaxValue">
+        <double>3.000000000000000</double>
+       </property>
+       <property name="color2MaxValue">
+        <double>7.000000000000000</double>
+       </property>
+       <property name="color1">
+        <color>
+         <red>0</red>
+         <green>176</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="color2">
+        <color>
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="value" stdset="0">
+        <double>6.000000000000000</double>
+       </property>
+       <property name="controllerValueId" stdset="0">
+        <string>mixer_vu3</string>
+       </property>
+       <property name="colorOn" stdset="0">
+        <color>
+         <red>176</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_2">
+     <property name="geometry">
+      <rect>
+       <x>614</x>
+       <y>362</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="widgetVisible">
+      <bool>true</bool>
+     </property>
+     <property name="autoHideMsec">
+      <number>4000</number>
+     </property>
+     <property name="color1">
+      <color>
+       <red>9</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="value" stdset="0">
+      <double>4.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>120</y>
+       <width>271</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Looooooooong Label</string>
+     </property>
+    </widget>
+    <widget class="QWheel" name="qWheel">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>138</x>
+       <y>14</y>
+       <width>323</width>
+       <height>207</height>
+      </rect>
+     </property>
+     <property name="autoHideMsec">
+      <number>0</number>
+     </property>
+     <property name="currentIndex" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="instantIndex" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="items">
+      <stringlist>
+       <string>WEEeeeeEEEEeeeeeEEEeeeeEEEELCOME</string>
+       <string>to</string>
+       <string>Axel</string>
+       <string>technology</string>
+       <string>leader</string>
+       <string>in</string>
+       <string>broadcast</string>
+       <string>innovation</string>
+       <string>design</string>
+       <string>and</string>
+       <string>giving</string>
+       <string>work</string>
+       <string>to</string>
+       <string>jackasses</string>
+      </stringlist>
+     </property>
+     <property name="wheelModeInt">
+      <number>1</number>
+     </property>
+     <property name="controllerValueId" stdset="0">
+      <string>wheel_value_</string>
+     </property>
+    </widget>
+    <widget class="QWheel" name="qWheelTZ">
+     <property name="geometry">
+      <rect>
+       <x>-70</x>
+       <y>258</y>
+       <width>957</width>
+       <height>202</height>
+      </rect>
+     </property>
+     <property name="currentIndex" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="items">
+      <stringlist>
+       <string>(UTC-12:00) International Date Line West</string>
+       <string>(UTC-11:00) Coordinated Universal Time-11</string>
+       <string>(UTC-10:00) Aleutian Islands</string>
+       <string>(UTC-10:00) Hawaii</string>
+       <string>(UTC-09:30) Marquesas Islands</string>
+       <string>(UTC-09:00) Alaska</string>
+       <string>(UTC-09:00) Coordinated Universal Time-09</string>
+       <string>(UTC-08:00) Baja California</string>
+       <string>(UTC-08:00) Coordinated Universal Time-08</string>
+       <string>(UTC-08:00) Pacific Time (US &amp; Canada)</string>
+       <string>(UTC-07:00) Arizona</string>
+       <string>(UTC-07:00) Chihuahua, La Paz, Mazatlan</string>
+       <string>(UTC-07:00) Mountain Time (US &amp; Canada)</string>
+       <string>(UTC-06:00) Central America</string>
+       <string>(UTC-06:00) Central Time (US &amp; Canada)</string>
+       <string>(UTC-06:00) Easter Island</string>
+       <string>(UTC-06:00) Guadalajara, Mexico City, Monterrey</string>
+       <string>(UTC-06:00) Saskatchewan</string>
+       <string>(UTC-05:00) Bogota, Lima, Quito, Rio Branco</string>
+       <string>(UTC-05:00) Chetumal</string>
+       <string>(UTC-05:00) Eastern Time (US &amp; Canada)</string>
+       <string>(UTC-05:00) Haiti</string>
+       <string>(UTC-05:00) Havana</string>
+       <string>(UTC-05:00) Indiana (East)</string>
+       <string>(UTC-04:00) Asuncion</string>
+       <string>(UTC-04:00) Atlantic Time (Canada)</string>
+       <string>(UTC-04:00) Caracas</string>
+       <string>(UTC-04:00) Cuiaba</string>
+       <string>(UTC-04:00) Georgetown, La Paz, Manaus, San Juan</string>
+       <string>(UTC-04:00) Santiago</string>
+       <string>(UTC-04:00) Turks and Caicos</string>
+       <string>(UTC-03:30) Newfoundland</string>
+       <string>(UTC-03:00) Araguaina</string>
+       <string>(UTC-03:00) Brasilia</string>
+       <string>(UTC-03:00) Cayenne, Fortaleza</string>
+       <string>(UTC-03:00) City of Buenos Aires</string>
+       <string>(UTC-03:00) Greenland</string>
+       <string>(UTC-03:00) Montevideo</string>
+       <string>(UTC-03:00) Saint Pierre and Miquelon</string>
+       <string>(UTC-03:00) Salvador</string>
+       <string>(UTC-02:00) Coordinated Universal Time-02</string>
+       <string>(UTC-01:00) Azores</string>
+       <string>(UTC-01:00) Cabo Verde Is.</string>
+       <string>(UTC) Coordinated Universal Time</string>
+       <string>(UTC+00:00) Casablanca</string>
+       <string>(UTC+00:00) Dublin, Edinburgh, Lisbon, London</string>
+       <string>(UTC+00:00) Monrovia, Reykjavik</string>
+       <string>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</string>
+       <string>(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</string>
+       <string>(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</string>
+       <string>(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</string>
+       <string>(UTC+01:00) West Central Africa</string>
+       <string>(UTC+01:00) Windhoek</string>
+       <string>(UTC+02:00) Amman</string>
+       <string>(UTC+02:00) Athens, Bucharest</string>
+       <string>(UTC+02:00) Beirut</string>
+       <string>(UTC+02:00) Cairo</string>
+       <string>(UTC+02:00) Chisinau</string>
+       <string>(UTC+02:00) Damascus</string>
+       <string>(UTC+02:00) Gaza, Hebron</string>
+       <string>(UTC+02:00) Harare, Pretoria</string>
+       <string>(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</string>
+       <string>(UTC+02:00) Istanbul</string>
+       <string>(UTC+02:00) Jerusalem</string>
+       <string>(UTC+02:00) Kaliningrad</string>
+       <string>(UTC+02:00) Tripoli</string>
+       <string>(UTC+03:00) Baghdad</string>
+       <string>(UTC+03:00) Kuwait, Riyadh</string>
+       <string>(UTC+03:00) Minsk</string>
+       <string>(UTC+03:00) Moscow, St. Petersburg, Volgograd</string>
+       <string>(UTC+03:00) Nairobi</string>
+       <string>(UTC+03:30) Tehran</string>
+       <string>(UTC+04:00) Abu Dhabi, Muscat</string>
+       <string>(UTC+04:00) Astrakhan, Ulyanovsk</string>
+       <string>(UTC+04:00) Baku</string>
+       <string>(UTC+04:00) Izhevsk, Samara</string>
+       <string>(UTC+04:00) Port Louis</string>
+       <string>(UTC+04:00) Tbilisi</string>
+       <string>(UTC+04:00) Yerevan</string>
+       <string>(UTC+04:30) Kabul</string>
+       <string>(UTC+05:00) Ashgabat, Tashkent</string>
+       <string>(UTC+05:00) Ekaterinburg</string>
+       <string>(UTC+05:00) Islamabad, Karachi</string>
+       <string>(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi</string>
+       <string>(UTC+05:30) Sri Jayawardenepura</string>
+       <string>(UTC+05:45) Kathmandu</string>
+       <string>(UTC+06:00) Astana</string>
+       <string>(UTC+06:00) Dhaka</string>
+       <string>(UTC+06:00) Omsk</string>
+       <string>(UTC+06:30) Yangon (Rangoon)</string>
+       <string>(UTC+07:00) Bangkok, Hanoi, Jakarta</string>
+       <string>(UTC+07:00) Barnaul, Gorno-Altaysk</string>
+       <string>(UTC+07:00) Hovd</string>
+       <string>(UTC+07:00) Krasnoyarsk</string>
+       <string>(UTC+07:00) Novosibirsk</string>
+       <string>(UTC+07:00) Tomsk</string>
+       <string>(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi</string>
+       <string>(UTC+08:00) Irkutsk</string>
+       <string>(UTC+08:00) Kuala Lumpur, Singapore</string>
+       <string>(UTC+08:00) Perth</string>
+       <string>(UTC+08:00) Taipei</string>
+       <string>(UTC+08:00) Ulaanbaatar</string>
+       <string>(UTC+08:30) Pyongyang</string>
+       <string>(UTC+08:45) Eucla</string>
+       <string>(UTC+09:00) Chita</string>
+       <string>(UTC+09:00) Osaka, Sapporo, Tokyo</string>
+       <string>(UTC+09:00) Seoul</string>
+       <string>(UTC+09:00) Yakutsk</string>
+       <string>(UTC+09:30) Adelaide</string>
+       <string>(UTC+09:30) Darwin</string>
+       <string>(UTC+10:00) Brisbane</string>
+       <string>(UTC+10:00) Canberra, Melbourne, Sydney</string>
+       <string>(UTC+10:00) Guam, Port Moresby</string>
+       <string>(UTC+10:00) Hobart</string>
+       <string>(UTC+10:00) Vladivostok</string>
+       <string>(UTC+10:30) Lord Howe Island</string>
+       <string>(UTC+11:00) Bougainville Island</string>
+       <string>(UTC+11:00) Chokurdakh</string>
+       <string>(UTC+11:00) Magadan</string>
+       <string>(UTC+11:00) Norfolk Island</string>
+       <string>(UTC+11:00) Sakhalin</string>
+       <string>(UTC+11:00) Solomon Is., New Caledonia</string>
+       <string>(UTC+12:00) Anadyr, Petropavlovsk-Kamchatsky</string>
+       <string>(UTC+12:00) Auckland, Wellington</string>
+       <string>(UTC+12:00) Coordinated Universal Time+12</string>
+       <string>(UTC+12:00) Fiji</string>
+       <string>(UTC+12:45) Chatham Islands</string>
+       <string>(UTC+13:00) Nuku'alofa</string>
+       <string>(UTC+13:00) Samoa</string>
+       <string>(UTC+14:00) Kiritimati Island</string>
+      </stringlist>
+     </property>
+    </widget>
+    <zorder>axelpanel</zorder>
+    <zorder>axelpanel_2</zorder>
+    <zorder>onairclockWidget</zorder>
+    <zorder>multiImage</zorder>
+    <zorder>axelpanel_3</zorder>
+    <zorder>vuMeter_2</zorder>
+    <zorder>axelLabel</zorder>
+    <zorder>qknob</zorder>
+    <zorder>qWheel</zorder>
+    <zorder>qWheelTZ</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>OnairclockWidget</class>
+   <extends>QWidget</extends>
+   <header>onairclockwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelLabel</class>
+   <extends>QWidget</extends>
+   <header>axellabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QKnob</class>
+   <extends>QWidget</extends>
+   <header>qknob.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QWheel</class>
+   <extends>QWidget</extends>
+   <header>qwheel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MultiImage</class>
+   <extends>QWidget</extends>
+   <header>multiimage.h</header>
+  </customwidget>
+  <customwidget>
+   <class>VuMeter</class>
+   <extends>QWidget</extends>
+   <header>vumeter.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelPanel</class>
+   <extends>QWidget</extends>
+   <header>axelpanel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

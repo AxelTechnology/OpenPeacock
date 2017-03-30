@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>848</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>MS Shell Dlg 2</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="AxelPanel" name="axelpanel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>220</y>
+     <width>321</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="colorBg">
+    <color>
+     <red>132</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <widget class="QKnob" name="qKnob">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="value">
+     <double>3.200000000000000</double>
+    </property>
+    <property name="minValue">
+     <double>-10.000000000000000</double>
+    </property>
+    <property name="maxValue">
+     <double>10.000000000000000</double>
+    </property>
+    <property name="units">
+     <string>dB</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
+  </widget>
+  <widget class="VuMeter" name="vuMeter">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>121</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="value">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QWheel" name="qWheel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>196</width>
+     <height>209</height>
+    </rect>
+   </property>
+   <property name="currentIndex" stdset="0">
+    <number>1</number>
+   </property>
+   <property name="items">
+    <stringlist>
+     <string>One</string>
+     <string>Two</string>
+     <string>Three</string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="AxelLabel" name="axelLabel">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>50</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="colorOff">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="fontColor">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="AxelLabel" name="axelLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>140</y>
+     <width>171</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="colorOff">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="fontColor">
+    <color>
+     <red>240</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="separators">
+    <enum>AxelLabel::AxelLabelSeparators_BOTH</enum>
+   </property>
+   <property name="separatorsInt">
+    <number>3</number>
+   </property>
+   <property name="extensionInt">
+    <number>2</number>
+   </property>
+  </widget>
+  <widget class="AxelLabel" name="axelLabel_3">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>270</y>
+     <width>171</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="colorOff">
+    <color>
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="fontColor">
+    <color>
+     <red>240</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="separators">
+    <enum>AxelLabel::AxelLabelSeparators_BOTH</enum>
+   </property>
+   <property name="separatorsInt">
+    <number>3</number>
+   </property>
+   <property name="extensionInt">
+    <number>2</number>
+   </property>
+  </widget>
+  <widget class="QGraph" name="qGraph">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>340</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="OnairclockWidget" name="onairclockWidget">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>30</y>
+     <width>161</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>OnairclockWidget</class>
+   <extends>QWidget</extends>
+   <header>onairclockwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelLabel</class>
+   <extends>QWidget</extends>
+   <header>axellabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QGraph</class>
+   <extends>QWidget</extends>
+   <header>qgraph.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QKnob</class>
+   <extends>QWidget</extends>
+   <header>qknob.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QWheel</class>
+   <extends>QWidget</extends>
+   <header>qwheel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>VuMeter</class>
+   <extends>QWidget</extends>
+   <header>vumeter.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelPanel</class>
+   <extends>QWidget</extends>
+   <header>axelpanel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

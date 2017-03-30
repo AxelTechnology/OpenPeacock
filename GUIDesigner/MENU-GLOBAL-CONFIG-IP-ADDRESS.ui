@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testWindow</class>
+ <widget class="QMainWindow" name="testWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="AxelPanel" name="axelpanel_11">
+    <property name="geometry">
+     <rect>
+      <x>198</x>
+      <y>258</y>
+      <width>2</width>
+      <height>217</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelPanel" name="axelpanel_12">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>258</y>
+      <width>2</width>
+      <height>217</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelPanel" name="axelpanel_13">
+    <property name="geometry">
+     <rect>
+      <x>599</x>
+      <y>258</y>
+      <width>2</width>
+      <height>217</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelPanel" name="pnlBgSelection1">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>258</y>
+      <width>190</width>
+      <height>217</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <widget class="AxelPanel" name="pnlSelection1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>192</y>
+       <width>190</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <widget class="AxelLabel" name="lblSelection1">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>2</y>
+        <width>190</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="textPrimary">
+       <string>DHCP</string>
+      </property>
+      <property name="colorOff">
+       <color alpha="0">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="fontColor">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWheel" name="wheelDhcp">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>6</y>
+       <width>190</width>
+       <height>175</height>
+      </rect>
+     </property>
+     <property name="items">
+      <stringlist>
+       <string>STATIC</string>
+       <string>DYNAMIC</string>
+      </stringlist>
+     </property>
+     <property name="controllerDataInstantValue">
+      <string>{ &quot;id&quot;: &quot;bDhcpActive&quot;, &quot;match&quot;: &quot;os&quot; }</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelPanel" name="pnlBgSelection2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>204</x>
+      <y>258</y>
+      <width>190</width>
+      <height>217</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <widget class="AxelPanel" name="pnlSelection2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>192</y>
+       <width>190</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <widget class="AxelLabel" name="lblSelection2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>2</y>
+        <width>190</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="textPrimary">
+       <string>IP</string>
+      </property>
+      <property name="colorOff">
+       <color alpha="0">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="fontColor">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+     </widget>
+    </widget>
+    <widget class="MultiImage" name="imgSelection2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>62</x>
+       <y>62</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="imageList">
+      <stringlist>
+       <string>:/edit.png</string>
+      </stringlist>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelPanel" name="pnlBgSelection3">
+    <property name="geometry">
+     <rect>
+      <x>404</x>
+      <y>258</y>
+      <width>190</width>
+      <height>217</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <widget class="AxelPanel" name="pnlSelection3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>192</y>
+       <width>190</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <widget class="AxelLabel" name="lblSelection3">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>2</y>
+        <width>190</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="textPrimary">
+       <string>MASK</string>
+      </property>
+      <property name="colorOff">
+       <color alpha="0">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="fontColor">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+     </widget>
+    </widget>
+    <widget class="MultiImage" name="imgSelection3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>62</x>
+       <y>62</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="imageList">
+      <stringlist>
+       <string>:/edit.png</string>
+      </stringlist>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelPanel" name="pnlBgSelection4">
+    <property name="geometry">
+     <rect>
+      <x>606</x>
+      <y>258</y>
+      <width>190</width>
+      <height>217</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <widget class="AxelPanel" name="pnlSelection4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>192</y>
+       <width>190</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <widget class="AxelLabel" name="lblSelection4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>2</y>
+        <width>190</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="textPrimary">
+       <string>GATEWAY</string>
+      </property>
+      <property name="colorOff">
+       <color alpha="0">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="fontColor">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+     </widget>
+    </widget>
+    <widget class="MultiImage" name="imgSelection4">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>62</x>
+       <y>62</y>
+       <width>64</width>
+       <height>64</height>
+      </rect>
+     </property>
+     <property name="imageList">
+      <stringlist>
+       <string>:/edit.png</string>
+      </stringlist>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelPanel" name="pnlMenuTitle">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>228</y>
+      <width>788</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <widget class="AxelLabel" name="axelLabel">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>1</y>
+       <width>63</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Menu:</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="lblMenuPath">
+     <property name="geometry">
+      <rect>
+       <x>66</x>
+       <y>1</y>
+       <width>587</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>GENERAL SETTINGS COMMUNICATIONS</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>254</red>
+       <green>254</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="textAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_2">
+     <property name="geometry">
+      <rect>
+       <x>666</x>
+       <y>1</y>
+       <width>63</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Page:</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="textAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="lblPageNumber">
+     <property name="geometry">
+      <rect>
+       <x>728</x>
+       <y>1</y>
+       <width>60</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>1 of 1</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>254</red>
+       <green>254</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="textAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelPanel" name="pnlBgUpper">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>228</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <widget class="QFrame" name="gridIP">
+     <property name="geometry">
+      <rect>
+       <x>174</x>
+       <y>20</y>
+       <width>455</width>
+       <height>133</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" columnstretch="1,1">
+      <property name="leftMargin">
+       <number>1</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>20</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>7</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="AxelLabel" name="axelLabel_3">
+        <property name="textPrimary">
+         <string>DHCP:</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="AxelLabel" name="lblDhcpEnabled">
+        <property name="textPrimary">
+         <string>OFF</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="AxelLabel" name="axelLabel_5">
+        <property name="textPrimary">
+         <string>IP:</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="AxelLabel" name="axelLabel_7">
+        <property name="textPrimary">
+         <string>MASK:</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="AxelLabel" name="lblMask">
+        <property name="textPrimary">
+         <string>Wait...</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+        <property name="controllerDataText">
+         <string>{ &quot;id&quot;: &quot;sMask&quot;, &quot;match&quot;: &quot;os&quot; }</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="AxelLabel" name="axelLabel_9">
+        <property name="textPrimary">
+         <string>GATEWAY:</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="AxelLabel" name="lblGateway">
+        <property name="textPrimary">
+         <string>Wait...</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+        <property name="controllerDataText">
+         <string>{ &quot;id&quot;: &quot;sGateway&quot;, &quot;match&quot;: &quot;os&quot; }</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="AxelLabel" name="lblIP">
+        <property name="textPrimary">
+         <string>Wait...</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+        <property name="controllerDataText">
+         <string>{ &quot;id&quot;: &quot;sIpAddress&quot;, &quot;match&quot;: &quot;os&quot; }</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="Metadata" name="metadata">
+     <property name="geometry">
+      <rect>
+       <x>718</x>
+       <y>38</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>AxelLabel</class>
+   <extends>QWidget</extends>
+   <header>axellabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QWheel</class>
+   <extends>QWidget</extends>
+   <header>qwheel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MultiImage</class>
+   <extends>QWidget</extends>
+   <header>multiimage.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelPanel</class>
+   <extends>QWidget</extends>
+   <header>axelpanel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Metadata</class>
+   <extends>QWidget</extends>
+   <header>metadata.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

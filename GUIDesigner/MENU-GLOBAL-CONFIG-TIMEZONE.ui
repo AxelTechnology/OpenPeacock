@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testWindow</class>
+ <widget class="QMainWindow" name="testWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="AxelPanel" name="pnlBgSelection1">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>258</y>
+      <width>788</width>
+      <height>217</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <widget class="AxelPanel" name="pnlSelection1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>190</y>
+       <width>788</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <widget class="AxelLabel" name="lblSelection1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>2</y>
+        <width>788</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="textPrimary">
+       <string>TIME ZONE</string>
+      </property>
+      <property name="colorOff">
+       <color alpha="0">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="fontColor">
+       <color>
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWheel" name="wheelTZ">
+     <property name="geometry">
+      <rect>
+       <x>-100</x>
+       <y>6</y>
+       <width>1000</width>
+       <height>175</height>
+      </rect>
+     </property>
+     <property name="currentIndex" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="instantIndex" stdset="0">
+      <number>0</number>
+     </property>
+     <property name="items">
+      <stringlist>
+       <string>(UTC-12:00) International Date Line West</string>
+       <string>(UTC-11:00) Coordinated Universal Time-11</string>
+       <string>(UTC-10:00) Aleutian Islands</string>
+       <string>(UTC-10:00) Hawaii</string>
+       <string>(UTC-09:30) Marquesas Islands</string>
+       <string>(UTC-09:00) Alaska</string>
+       <string>(UTC-09:00) Coordinated Universal Time-09</string>
+       <string>(UTC-08:00) Baja California</string>
+       <string>(UTC-08:00) Coordinated Universal Time-08</string>
+       <string>(UTC-08:00) Pacific Time (US &amp; Canada)</string>
+       <string>(UTC-07:00) Arizona</string>
+       <string>(UTC-07:00) Chihuahua, La Paz, Mazatlan</string>
+       <string>(UTC-07:00) Mountain Time (US &amp; Canada)</string>
+       <string>(UTC-06:00) Central America</string>
+       <string>(UTC-06:00) Central Time (US &amp; Canada)</string>
+       <string>(UTC-06:00) Easter Island</string>
+       <string>(UTC-06:00) Guadalajara, Mexico City, Monterrey</string>
+       <string>(UTC-06:00) Saskatchewan</string>
+       <string>(UTC-05:00) Bogota, Lima, Quito, Rio Branco</string>
+       <string>(UTC-05:00) Chetumal</string>
+       <string>(UTC-05:00) Eastern Time (US &amp; Canada)</string>
+       <string>(UTC-05:00) Haiti</string>
+       <string>(UTC-05:00) Havana</string>
+       <string>(UTC-05:00) Indiana (East)</string>
+       <string>(UTC-04:00) Asuncion</string>
+       <string>(UTC-04:00) Atlantic Time (Canada)</string>
+       <string>(UTC-04:00) Caracas</string>
+       <string>(UTC-04:00) Cuiaba</string>
+       <string>(UTC-04:00) Georgetown, La Paz, Manaus, San Juan</string>
+       <string>(UTC-04:00) Santiago</string>
+       <string>(UTC-04:00) Turks and Caicos</string>
+       <string>(UTC-03:30) Newfoundland</string>
+       <string>(UTC-03:00) Araguaina</string>
+       <string>(UTC-03:00) Brasilia</string>
+       <string>(UTC-03:00) Cayenne, Fortaleza</string>
+       <string>(UTC-03:00) City of Buenos Aires</string>
+       <string>(UTC-03:00) Greenland</string>
+       <string>(UTC-03:00) Montevideo</string>
+       <string>(UTC-03:00) Saint Pierre and Miquelon</string>
+       <string>(UTC-03:00) Salvador</string>
+       <string>(UTC-02:00) Coordinated Universal Time-02</string>
+       <string>(UTC-01:00) Azores</string>
+       <string>(UTC-01:00) Cabo Verde Is.</string>
+       <string>(UTC) Coordinated Universal Time</string>
+       <string>(UTC+00:00) Casablanca</string>
+       <string>(UTC+00:00) Dublin, Edinburgh, Lisbon, London</string>
+       <string>(UTC+00:00) Monrovia, Reykjavik</string>
+       <string>(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</string>
+       <string>(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</string>
+       <string>(UTC+01:00) Brussels, Copenhagen, Madrid, Paris</string>
+       <string>(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb</string>
+       <string>(UTC+01:00) West Central Africa</string>
+       <string>(UTC+01:00) Windhoek</string>
+       <string>(UTC+02:00) Amman</string>
+       <string>(UTC+02:00) Athens, Bucharest</string>
+       <string>(UTC+02:00) Beirut</string>
+       <string>(UTC+02:00) Cairo</string>
+       <string>(UTC+02:00) Chisinau</string>
+       <string>(UTC+02:00) Damascus</string>
+       <string>(UTC+02:00) Gaza, Hebron</string>
+       <string>(UTC+02:00) Harare, Pretoria</string>
+       <string>(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</string>
+       <string>(UTC+02:00) Istanbul</string>
+       <string>(UTC+02:00) Jerusalem</string>
+       <string>(UTC+02:00) Kaliningrad</string>
+       <string>(UTC+02:00) Tripoli</string>
+       <string>(UTC+03:00) Baghdad</string>
+       <string>(UTC+03:00) Kuwait, Riyadh</string>
+       <string>(UTC+03:00) Minsk</string>
+       <string>(UTC+03:00) Moscow, St. Petersburg, Volgograd</string>
+       <string>(UTC+03:00) Nairobi</string>
+       <string>(UTC+03:30) Tehran</string>
+       <string>(UTC+04:00) Abu Dhabi, Muscat</string>
+       <string>(UTC+04:00) Astrakhan, Ulyanovsk</string>
+       <string>(UTC+04:00) Baku</string>
+       <string>(UTC+04:00) Izhevsk, Samara</string>
+       <string>(UTC+04:00) Port Louis</string>
+       <string>(UTC+04:00) Tbilisi</string>
+       <string>(UTC+04:00) Yerevan</string>
+       <string>(UTC+04:30) Kabul</string>
+       <string>(UTC+05:00) Ashgabat, Tashkent</string>
+       <string>(UTC+05:00) Ekaterinburg</string>
+       <string>(UTC+05:00) Islamabad, Karachi</string>
+       <string>(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi</string>
+       <string>(UTC+05:30) Sri Jayawardenepura</string>
+       <string>(UTC+05:45) Kathmandu</string>
+       <string>(UTC+06:00) Astana</string>
+       <string>(UTC+06:00) Dhaka</string>
+       <string>(UTC+06:00) Omsk</string>
+       <string>(UTC+06:30) Yangon (Rangoon)</string>
+       <string>(UTC+07:00) Bangkok, Hanoi, Jakarta</string>
+       <string>(UTC+07:00) Barnaul, Gorno-Altaysk</string>
+       <string>(UTC+07:00) Hovd</string>
+       <string>(UTC+07:00) Krasnoyarsk</string>
+       <string>(UTC+07:00) Novosibirsk</string>
+       <string>(UTC+07:00) Tomsk</string>
+       <string>(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi</string>
+       <string>(UTC+08:00) Irkutsk</string>
+       <string>(UTC+08:00) Kuala Lumpur, Singapore</string>
+       <string>(UTC+08:00) Perth</string>
+       <string>(UTC+08:00) Taipei</string>
+       <string>(UTC+08:00) Ulaanbaatar</string>
+       <string>(UTC+08:30) Pyongyang</string>
+       <string>(UTC+08:45) Eucla</string>
+       <string>(UTC+09:00) Chita</string>
+       <string>(UTC+09:00) Osaka, Sapporo, Tokyo</string>
+       <string>(UTC+09:00) Seoul</string>
+       <string>(UTC+09:00) Yakutsk</string>
+       <string>(UTC+09:30) Adelaide</string>
+       <string>(UTC+09:30) Darwin</string>
+       <string>(UTC+10:00) Brisbane</string>
+       <string>(UTC+10:00) Canberra, Melbourne, Sydney</string>
+       <string>(UTC+10:00) Guam, Port Moresby</string>
+       <string>(UTC+10:00) Hobart</string>
+       <string>(UTC+10:00) Vladivostok</string>
+       <string>(UTC+10:30) Lord Howe Island</string>
+       <string>(UTC+11:00) Bougainville Island</string>
+       <string>(UTC+11:00) Chokurdakh</string>
+       <string>(UTC+11:00) Magadan</string>
+       <string>(UTC+11:00) Norfolk Island</string>
+       <string>(UTC+11:00) Sakhalin</string>
+       <string>(UTC+11:00) Solomon Is., New Caledonia</string>
+       <string>(UTC+12:00) Anadyr, Petropavlovsk-Kamchatsky</string>
+       <string>(UTC+12:00) Auckland, Wellington</string>
+       <string>(UTC+12:00) Coordinated Universal Time+12</string>
+       <string>(UTC+12:00) Fiji</string>
+       <string>(UTC+12:45) Chatham Islands</string>
+       <string>(UTC+13:00) Nuku'alofa</string>
+       <string>(UTC+13:00) Samoa</string>
+       <string>(UTC+14:00) Kiritimati Island</string>
+      </stringlist>
+     </property>
+     <property name="controllerDataValue">
+      <string>{ &quot;id&quot;: &quot;date_wheel1&quot;, &quot;match&quot;: &quot;date&quot; }</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelPanel" name="pnlMenuTitle">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>228</y>
+      <width>788</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <widget class="AxelLabel" name="axelLabel">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>1</y>
+       <width>63</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Menu:</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="lblMenuPath">
+     <property name="geometry">
+      <rect>
+       <x>66</x>
+       <y>1</y>
+       <width>587</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>GENERAL SETTINGS</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>254</red>
+       <green>254</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="textAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_2">
+     <property name="geometry">
+      <rect>
+       <x>666</x>
+       <y>1</y>
+       <width>63</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Page:</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="textAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="lblPageNumber">
+     <property name="geometry">
+      <rect>
+       <x>728</x>
+       <y>1</y>
+       <width>60</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>1 of 1</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>254</red>
+       <green>254</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="textAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelPanel" name="pnlBgUpper">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>228</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <widget class="QFrame" name="gridDatetimeSummary">
+     <property name="geometry">
+      <rect>
+       <x>23</x>
+       <y>8</y>
+       <width>755</width>
+       <height>133</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout" columnstretch="1,4">
+      <property name="leftMargin">
+       <number>1</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>20</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>7</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="AxelLabel" name="axelLabel_3">
+        <property name="textPrimary">
+         <string>DATE:</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="AxelLabel" name="lblDate">
+        <property name="textPrimary">
+         <string>20/12/206</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="AxelLabel" name="axelLabel_5">
+        <property name="textPrimary">
+         <string>TIME:</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="AxelLabel" name="axelLabel_7">
+        <property name="textPrimary">
+         <string>TIME ZONE:</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="AxelLabel" name="lblTz">
+        <property name="textPrimary">
+         <string>(UTC+00:00) Dublin, Edinburgh, Lisbon, London</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="AxelLabel" name="axelLabel_9">
+        <property name="textPrimary">
+         <string>NTP SERVER:</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="AxelLabel" name="lblNtp">
+        <property name="textPrimary">
+         <string>OFF - 192.168.254.100</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="AxelLabel" name="lblTime">
+        <property name="textPrimary">
+         <string>15:42:37</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QFrame" name="gridNtpServers">
+     <property name="geometry">
+      <rect>
+       <x>24</x>
+       <y>162</y>
+       <width>755</width>
+       <height>56</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2" columnstretch="1,1">
+      <property name="leftMargin">
+       <number>1</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>5</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>1</number>
+      </property>
+      <item row="2" column="1">
+       <widget class="AxelLabel" name="lblNtpserver5">
+        <property name="textPrimary">
+         <string>north-america.pool.ntp.org (66.250.45.2)</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="AxelLabel" name="lblNtpserver4">
+        <property name="textPrimary">
+         <string>asia.pool.ntp.org (140.130.175.9)</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="AxelLabel" name="lblNtpserver1">
+        <property name="textPrimary">
+         <string>europe.pool.ntp.org (217.147.223.78)</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="AxelLabel" name="lblNtpserver6">
+        <property name="textPrimary">
+         <string>africa.pool.ntp.org (196.25.1.9)</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="AxelLabel" name="lblNtpserver3">
+        <property name="textPrimary">
+         <string>south-america.pool.ntp.org (146.164.53.65)</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="AxelLabel" name="lblNtpserver2">
+        <property name="textPrimary">
+         <string>oceania.pool.ntp.org (203.23.237.200)</string>
+        </property>
+        <property name="colorOff">
+         <color alpha="0">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </property>
+        <property name="fontColor">
+         <color>
+          <red>253</red>
+          <green>253</green>
+          <blue>253</blue>
+         </color>
+        </property>
+        <property name="textAlignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="AxelPanel" name="axelpanel_14">
+     <property name="geometry">
+      <rect>
+       <x>23</x>
+       <y>152</y>
+       <width>755</width>
+       <height>2</height>
+      </rect>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="Metadata" name="metadata">
+     <property name="geometry">
+      <rect>
+       <x>728</x>
+       <y>160</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>AxelLabel</class>
+   <extends>QWidget</extends>
+   <header>axellabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QWheel</class>
+   <extends>QWidget</extends>
+   <header>qwheel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelPanel</class>
+   <extends>QWidget</extends>
+   <header>axelpanel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Metadata</class>
+   <extends>QWidget</extends>
+   <header>metadata.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

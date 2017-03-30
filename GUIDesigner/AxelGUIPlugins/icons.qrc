@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>OnairclockWidget.png</file>
+        <file>AxelLabel.png</file>
+        <file>QGraph.png</file>
+        <file>QWheel.png</file>
+        <file>QKnob.png</file>
+        <file>MultiImage.png</file>
+        <file>VuMeter.png</file>
+        <file>AxelPanel.png</file>
+        <file>Metadata.png</file>
+    </qresource>
+</RCC>

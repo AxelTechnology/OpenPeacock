@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>timezones_linux.json</file>
+        <file>timezones_windows.json</file>
+    </qresource>
+</RCC>

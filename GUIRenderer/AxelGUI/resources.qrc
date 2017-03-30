@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>105.png</file>
+        <file>Virgin_Radio_logo.png</file>
+        <file>VirginRadio.png</file>
+        <file>SwitchButton.qml</file>
+        <file>Bar.qml</file>
+        <file>Bars.qml</file>
+        <file>loading2.gif</file>
+        <file>loading3.gif</file>
+        <file>loading_snake.gif</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>AxelTechnology.jpg</file>
+        <file>AxelLogoWhite.png</file>
+        <file>AxelLogoWhite_big.png</file>
+    </qresource>
+</RCC>

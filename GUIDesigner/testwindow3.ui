@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="MultiImage" name="multiImage">
+   <property name="geometry">
+    <rect>
+     <x>48</x>
+     <y>26</y>
+     <width>153</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <property name="imageList">
+    <stringlist>
+     <string>:/mic.png</string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="MultiImage" name="multiImage_2">
+   <property name="geometry">
+    <rect>
+     <x>242</x>
+     <y>30</y>
+     <width>431</width>
+     <height>143</height>
+    </rect>
+   </property>
+   <property name="showImageIndex">
+    <number>0</number>
+   </property>
+   <property name="imageList">
+    <stringlist>
+     <string>:/knob_tutorial.png</string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="MultiImage" name="multiImage_3">
+   <property name="geometry">
+    <rect>
+     <x>58</x>
+     <y>260</y>
+     <width>431</width>
+     <height>143</height>
+    </rect>
+   </property>
+   <property name="showImageIndex">
+    <number>0</number>
+   </property>
+   <property name="imageList">
+    <stringlist>
+     <string>:/knob_tutorial.png</string>
+    </stringlist>
+   </property>
+  </widget>
+  <widget class="MultiImage" name="multiImage_4">
+   <property name="geometry">
+    <rect>
+     <x>302</x>
+     <y>172</y>
+     <width>431</width>
+     <height>143</height>
+    </rect>
+   </property>
+   <property name="showImageIndex">
+    <number>0</number>
+   </property>
+   <property name="imageList">
+    <stringlist>
+     <string>:/knob_tutorial.png</string>
+    </stringlist>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MultiImage</class>
+   <extends>QWidget</extends>
+   <header>multiimage.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

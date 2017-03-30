@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testWindow</class>
+ <widget class="QMainWindow" name="testWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGraph" name="qGraph">
+    <property name="geometry">
+     <rect>
+      <x>208</x>
+      <y>16</y>
+      <width>555</width>
+      <height>293</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>53</red>
+      <green>53</green>
+      <blue>53</blue>
+     </color>
+    </property>
+    <property name="controllerValueId" stdset="0">
+     <string>mixerEqBass</string>
+    </property>
+    <property name="id" stdset="0">
+     <string>graph1</string>
+    </property>
+    <property name="coeffA0" stdset="0">
+     <double>0.025509000000000</double>
+    </property>
+    <property name="coeffA1" stdset="0">
+     <double>0.051019000000000</double>
+    </property>
+    <property name="coeffA2" stdset="0">
+     <double>0.025509000000000</double>
+    </property>
+    <property name="coeffB1" stdset="0">
+     <double>-1.820704000000000</double>
+    </property>
+    <property name="coeffB2" stdset="0">
+     <double>0.922744000000000</double>
+    </property>
+   </widget>
+   <widget class="VuMeter" name="vuMeter_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>18</y>
+      <width>149</width>
+      <height>387</height>
+     </rect>
+    </property>
+    <property name="valueA">
+     <double>10.000000000000000</double>
+    </property>
+    <property name="valueAPerc">
+     <double>50.000000000000000</double>
+    </property>
+    <property name="valueB">
+     <double>31.149999999999999</double>
+    </property>
+    <property name="valueBPerc">
+     <double>89.000000000000000</double>
+    </property>
+    <property name="maxValue">
+     <double>35.000000000000000</double>
+    </property>
+    <property name="color1MaxValue">
+     <double>22.000000000000000</double>
+    </property>
+    <property name="color2MaxValue">
+     <double>30.000000000000000</double>
+    </property>
+    <property name="color1">
+     <color>
+      <red>0</red>
+      <green>254</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color2">
+     <color>
+      <red>250</red>
+      <green>247</green>
+      <blue>11</blue>
+     </color>
+    </property>
+    <property name="color3">
+     <color>
+      <red>246</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="decayValuePerSec">
+     <number>20</number>
+    </property>
+    <property name="numVuMeters">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QWheel" name="qWheel">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>324</y>
+      <width>211</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="controllerDataEnabled">
+     <string>{                         &quot;id&quot;: &quot;srcEnabled&quot;,                         &quot;match&quot;: &quot;chSrcEnabled&quot;,                         &quot;scale&quot;: 0.10000000000000001                     }</string>
+    </property>
+    <property name="items">
+     <stringlist>
+      <string>0</string>
+      <string>1</string>
+      <string>2</string>
+      <string>3</string>
+      <string>4</string>
+      <string>5</string>
+      <string>6</string>
+      <string>7</string>
+      <string>8</string>
+      <string>9</string>
+     </stringlist>
+    </property>
+    <property name="id" stdset="0">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWheel" name="qWheel_2">
+    <property name="geometry">
+     <rect>
+      <x>384</x>
+      <y>322</y>
+      <width>211</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="items">
+     <stringlist>
+      <string>0</string>
+      <string>1</string>
+      <string>2</string>
+      <string>3</string>
+      <string>4</string>
+      <string>5</string>
+      <string>6</string>
+      <string>7</string>
+      <string>8</string>
+      <string>9</string>
+     </stringlist>
+    </property>
+    <property name="controllerDataValue">
+     <string>{&quot;id&quot;: &quot;srcActiveGain&quot;, &quot;scale&quot;:0.1, &quot;match&quot;:&quot;chSrcActive&quot;}</string>
+    </property>
+    <property name="controllerValueId" stdset="0">
+     <string/>
+    </property>
+    <property name="id" stdset="0">
+     <string>qWheel_2</string>
+    </property>
+   </widget>
+   <widget class="QWheel" name="qWheel_3">
+    <property name="geometry">
+     <rect>
+      <x>584</x>
+      <y>322</y>
+      <width>211</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="controllerDataEnabled">
+     <string>{&quot;id&quot;: &quot;srcActiveGain&quot;, &quot;scale&quot;:0.1, &quot;match&quot;:&quot;chSrcActive&quot;}</string>
+    </property>
+    <property name="items">
+     <stringlist>
+      <string>0</string>
+      <string>1</string>
+      <string>2</string>
+      <string>3</string>
+      <string>4</string>
+      <string>5</string>
+      <string>6</string>
+      <string>7</string>
+      <string>8</string>
+      <string>9</string>
+     </stringlist>
+    </property>
+    <property name="controllerDataValues">
+     <string>{&quot;id&quot;: &quot;srcActiveGain&quot;, &quot;scale&quot;:0.1, &quot;match&quot;:&quot;chSrcActive&quot;}</string>
+    </property>
+    <property name="id" stdset="0">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QGraph</class>
+   <extends>QWidget</extends>
+   <header>qgraph.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QWheel</class>
+   <extends>QWidget</extends>
+   <header>qwheel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>VuMeter</class>
+   <extends>QWidget</extends>
+   <header>vumeter.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

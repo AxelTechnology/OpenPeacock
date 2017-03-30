@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testWindow</class>
+ <widget class="QMainWindow" name="testWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="VuMeter" name="vuMeter_1">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>100</y>
+      <width>61</width>
+      <height>187</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+     </font>
+    </property>
+    <property name="controllerDataEnabled">
+     <string>{                         &quot;id&quot;: &quot;srcEnabled&quot;,                         &quot;match&quot;: &quot;chSrcEnabled&quot;,                         &quot;scale&quot;: 0.10000000000000001                     }</string>
+    </property>
+    <property name="valueA">
+     <double>10.000000000000000</double>
+    </property>
+    <property name="valueAPerc">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="valueB">
+     <double>25.000000000000000</double>
+    </property>
+    <property name="valueBPerc">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="maxValue">
+     <double>25.000000000000000</double>
+    </property>
+    <property name="color1MaxValue">
+     <double>17.000000000000000</double>
+    </property>
+    <property name="color2MaxValue">
+     <double>22.000000000000000</double>
+    </property>
+    <property name="color1">
+     <color>
+      <red>0</red>
+      <green>161</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color2">
+     <color>
+      <red>199</red>
+      <green>194</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color3">
+     <color>
+      <red>197</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="controllerDataValueA">
+     <string>MUCCHIO DI CAGATE</string>
+    </property>
+    <property name="numVuMeters">
+     <number>2</number>
+    </property>
+    <property name="labels">
+     <stringlist>
+      <string>+20</string>
+      <string>+10</string>
+      <string>0</string>
+      <string>-10</string>
+      <string>-20</string>
+     </stringlist>
+    </property>
+    <property name="numLabels" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="controllerEnabledId" stdset="0">
+     <string/>
+    </property>
+    <property name="controllerValueAId" stdset="0">
+     <string/>
+    </property>
+    <property name="id" stdset="0">
+     <string/>
+    </property>
+    <property name="value" stdset="0">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="VuMeter" name="vuMeter_2">
+    <property name="geometry">
+     <rect>
+      <x>306</x>
+      <y>102</y>
+      <width>61</width>
+      <height>187</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+     </font>
+    </property>
+    <property name="controllerDataEnabled">
+     <string>{                         &quot;id&quot;: &quot;srcEnabled&quot;,                         &quot;match&quot;: &quot;chSrcEnabled&quot;,                         &quot;scale&quot;: 0.10000000000000001                     }</string>
+    </property>
+    <property name="valueA">
+     <double>10.000000000000000</double>
+    </property>
+    <property name="valueAPerc">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="valueB">
+     <double>25.000000000000000</double>
+    </property>
+    <property name="valueBPerc">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="maxValue">
+     <double>25.000000000000000</double>
+    </property>
+    <property name="color1MaxValue">
+     <double>17.000000000000000</double>
+    </property>
+    <property name="color2MaxValue">
+     <double>22.000000000000000</double>
+    </property>
+    <property name="color1">
+     <color>
+      <red>0</red>
+      <green>161</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color2">
+     <color>
+      <red>199</red>
+      <green>194</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color3">
+     <color>
+      <red>197</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="controllerDataValueA">
+     <string>MUCCHIO DI CAGATE</string>
+    </property>
+    <property name="numVuMeters">
+     <number>2</number>
+    </property>
+    <property name="labels">
+     <stringlist>
+      <string>+20</string>
+      <string>+10</string>
+      <string>0</string>
+      <string>-10</string>
+      <string>-20</string>
+     </stringlist>
+    </property>
+    <property name="showLabelsLeft">
+     <bool>true</bool>
+    </property>
+    <property name="numLabels" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="controllerEnabledId" stdset="0">
+     <string/>
+    </property>
+    <property name="controllerValueAId" stdset="0">
+     <string/>
+    </property>
+    <property name="id" stdset="0">
+     <string/>
+    </property>
+    <property name="value" stdset="0">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="VuMeter" name="vuMeter_3">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>98</y>
+      <width>61</width>
+      <height>187</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+     </font>
+    </property>
+    <property name="controllerDataEnabled">
+     <string>{                         &quot;id&quot;: &quot;srcEnabled&quot;,                         &quot;match&quot;: &quot;chSrcEnabled&quot;,                         &quot;scale&quot;: 0.10000000000000001                     }</string>
+    </property>
+    <property name="valueA">
+     <double>10.000000000000000</double>
+    </property>
+    <property name="valueAPerc">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="valueB">
+     <double>25.000000000000000</double>
+    </property>
+    <property name="valueBPerc">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="maxValue">
+     <double>25.000000000000000</double>
+    </property>
+    <property name="color1MaxValue">
+     <double>17.000000000000000</double>
+    </property>
+    <property name="color2MaxValue">
+     <double>22.000000000000000</double>
+    </property>
+    <property name="color1">
+     <color>
+      <red>0</red>
+      <green>161</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color2">
+     <color>
+      <red>199</red>
+      <green>194</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color3">
+     <color>
+      <red>197</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="controllerDataValueA">
+     <string>MUCCHIO DI CAGATE</string>
+    </property>
+    <property name="numVuMeters">
+     <number>1</number>
+    </property>
+    <property name="labels">
+     <stringlist>
+      <string>+20</string>
+      <string>+10</string>
+      <string>0</string>
+      <string>-10</string>
+      <string>-20</string>
+     </stringlist>
+    </property>
+    <property name="showLabelsLeft">
+     <bool>true</bool>
+    </property>
+    <property name="numLabels" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="controllerEnabledId" stdset="0">
+     <string/>
+    </property>
+    <property name="controllerValueAId" stdset="0">
+     <string/>
+    </property>
+    <property name="id" stdset="0">
+     <string/>
+    </property>
+    <property name="value" stdset="0">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="VuMeter" name="vuMeter_4">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>98</y>
+      <width>61</width>
+      <height>187</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+     </font>
+    </property>
+    <property name="controllerDataEnabled">
+     <string>{                         &quot;id&quot;: &quot;srcEnabled&quot;,                         &quot;match&quot;: &quot;chSrcEnabled&quot;,                         &quot;scale&quot;: 0.10000000000000001                     }</string>
+    </property>
+    <property name="valueA">
+     <double>10.000000000000000</double>
+    </property>
+    <property name="valueAPerc">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="valueB">
+     <double>25.000000000000000</double>
+    </property>
+    <property name="valueBPerc">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="maxValue">
+     <double>25.000000000000000</double>
+    </property>
+    <property name="color1MaxValue">
+     <double>17.000000000000000</double>
+    </property>
+    <property name="color2MaxValue">
+     <double>22.000000000000000</double>
+    </property>
+    <property name="color1">
+     <color>
+      <red>0</red>
+      <green>161</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color2">
+     <color>
+      <red>199</red>
+      <green>194</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="color3">
+     <color>
+      <red>197</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="controllerDataValueA">
+     <string>MUCCHIO DI CAGATE</string>
+    </property>
+    <property name="numVuMeters">
+     <number>1</number>
+    </property>
+    <property name="labels">
+     <stringlist>
+      <string>+20</string>
+      <string>+10</string>
+      <string>0</string>
+      <string>-10</string>
+      <string>-20</string>
+     </stringlist>
+    </property>
+    <property name="showLabelsLeft">
+     <bool>false</bool>
+    </property>
+    <property name="numLabels" stdset="0">
+     <number>0</number>
+    </property>
+    <property name="controllerEnabledId" stdset="0">
+     <string/>
+    </property>
+    <property name="controllerValueAId" stdset="0">
+     <string/>
+    </property>
+    <property name="id" stdset="0">
+     <string/>
+    </property>
+    <property name="value" stdset="0">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>VuMeter</class>
+   <extends>QWidget</extends>
+   <header>vumeter.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

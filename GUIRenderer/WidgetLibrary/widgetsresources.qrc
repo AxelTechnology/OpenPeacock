@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>CALIBRI.TTF</file>
+        <file>DS-DIGIB.TTF</file>
+        <file>CALIBRIB.TTF</file>
+    </qresource>
+</RCC>

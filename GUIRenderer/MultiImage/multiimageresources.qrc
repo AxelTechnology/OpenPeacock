@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>multiImage.png</file>
+        <file>bluetooth.png</file>
+        <file>edit.png</file>
+        <file>knob_tutorial.png</file>
+        <file>mic.png</file>
+        <file>speaker.png</file>
+        <file>speaker2.png</file>
+        <file>warning.png</file>
+        <file>telephone.png</file>
+        <file>axel_logo.png</file>
+        <file>Axel_pac-man.png</file>
+        <file>loading_snake.gif</file>
+        <file>speaker2-mute.png</file>
+        <file>headphones-mute.png</file>
+        <file>headphones.png</file>
+        <file>mic-mute.png</file>
+        <file>edit_big.png</file>
+        <file>axel_logo_big.png</file>
+        <file>bluetooth_big.png</file>
+        <file>headphones_big.png</file>
+        <file>headphones-mute_big.png</file>
+        <file>mic_big.png</file>
+        <file>speaker2_big.png</file>
+        <file>telephone_big.png</file>
+        <file>speaker2-mute_big.png</file>
+    </qresource>
+</RCC>

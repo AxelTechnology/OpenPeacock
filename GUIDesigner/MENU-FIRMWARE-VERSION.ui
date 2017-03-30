@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testWindow</class>
+ <widget class="QMainWindow" name="testWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="AxelPanel" name="axelpanel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>50</red>
+      <green>50</green>
+      <blue>50</blue>
+     </color>
+    </property>
+    <widget class="MultiImage" name="multiImage_2">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>6</y>
+       <width>223</width>
+       <height>53</height>
+      </rect>
+     </property>
+     <property name="imageList">
+      <stringlist>
+       <string>:/axel_logo.png</string>
+      </stringlist>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel">
+     <property name="geometry">
+      <rect>
+       <x>22</x>
+       <y>6</y>
+       <width>493</width>
+       <height>53</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>OXYGEN 3000 D</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="fontColor">
+      <color>
+       <red>253</red>
+       <green>253</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="textAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>92</y>
+      <width>769</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>Software and firmware version:</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="fontColor">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="textAlignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gridGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>146</y>
+      <width>380</width>
+      <height>242</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,0,0,0" columnstretch="2,1">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="horizontalSpacing">
+      <number>10</number>
+     </property>
+     <property name="verticalSpacing">
+      <number>0</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="AxelLabel" name="axelLabel_6">
+       <property name="textPrimary">
+        <string>Environment / OS</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="AxelLabel" name="lblEngineVersion">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.engine&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="AxelLabel" name="axelLabel_4">
+       <property name="textPrimary">
+        <string>Engine</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="AxelLabel" name="axelLabel_3">
+       <property name="textPrimary">
+        <string>GUI</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="AxelLabel" name="lblOSVersion">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;osVersion&quot;, &quot;match&quot;:&quot;os&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="AxelLabel" name="lblGuiVersion">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="AxelLabel" name="lblDspVersion">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.dsp&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="AxelLabel" name="axelLabel_5">
+       <property name="textPrimary">
+        <string>DSP FW</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="AxelLabel" name="lblDspMcuVersion">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.mcu.dsp.xmega&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="AxelLabel" name="axelLabel_7">
+       <property name="textPrimary">
+        <string>DSP MCU</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="AxelLabel" name="lblModelVersion">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.model&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="AxelLabel" name="axelLabel_8">
+       <property name="textPrimary">
+        <string>Model</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="AxelLabel" name="lblPagesVersion">
+       <property name="textPrimary">
+        <string>3.5</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="AxelLabel" name="axelLabel_9">
+       <property name="textPrimary">
+        <string>Menu Pages</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="gridGroupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>146</y>
+      <width>341</width>
+      <height>242</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,0,0,0,0,0,0" columnstretch="3,2">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="horizontalSpacing">
+      <number>10</number>
+     </property>
+     <property name="verticalSpacing">
+      <number>0</number>
+     </property>
+     <item row="5" column="0">
+      <widget class="AxelLabel" name="axelLabel_15">
+       <property name="textPrimary">
+        <string>Master MCU</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="AxelLabel" name="lblCh3Version">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.mcu.fader3&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="AxelLabel" name="axelLabel_14">
+       <property name="textPrimary">
+        <string>CH5 MCU</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="AxelLabel" name="lblCh2Version">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.mcu.fader2&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="AxelLabel" name="lblMasterVersion">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.mcu.mastersarti&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="AxelLabel" name="axelLabel_11">
+       <property name="textPrimary">
+        <string>CH3 MCU</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="AxelLabel" name="lblCh5Version">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.mcu.fader5&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="AxelLabel" name="axelLabel_10">
+       <property name="textPrimary">
+        <string>CH4 MCU</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="AxelLabel" name="lblCh4Version">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.mcu.fader4&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="AxelLabel" name="axelLabel_12">
+       <property name="textPrimary">
+        <string>CH2 MCU</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="AxelLabel" name="axelLabel_13">
+       <property name="textPrimary">
+        <string>CH1 MCU</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="AxelLabel" name="lblCh1Version">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.mcu.fader1&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="AxelLabel" name="axelLabel_16">
+       <property name="textPrimary">
+        <string>PSU MCU</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="AxelLabel" name="lblPSUVersion">
+       <property name="textPrimary">
+        <string>1.0</string>
+       </property>
+       <property name="colorOff">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="fontColor">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="textAlignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+       <property name="controllerDataText">
+        <string>{ &quot;id&quot;:&quot;version.mcu.xmegaPsu&quot;, &quot;match&quot;:&quot;app.firmware&quot; }</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>AxelLabel</class>
+   <extends>QWidget</extends>
+   <header>axellabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MultiImage</class>
+   <extends>QWidget</extends>
+   <header>multiimage.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelPanel</class>
+   <extends>QWidget</extends>
+   <header>axelpanel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

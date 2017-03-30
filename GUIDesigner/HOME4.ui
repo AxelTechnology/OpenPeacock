@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>testWindow</class>
+ <widget class="QMainWindow" name="testWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Abyssinica SIL</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="AxelPanel" name="axelpanel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>228</y>
+      <width>800</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>30</width>
+      <height>3</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="OnairclockWidget" name="onairclockWidget">
+    <property name="geometry">
+     <rect>
+      <x>228</x>
+      <y>252</y>
+      <width>215</width>
+      <height>215</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="MultiImage" name="multiImage">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>410</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="imageList">
+     <stringlist>
+      <string>:/telephone.png</string>
+     </stringlist>
+    </property>
+   </widget>
+   <widget class="MultiImage" name="multiImage_2">
+    <property name="geometry">
+     <rect>
+      <x>104</x>
+      <y>410</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="imageList">
+     <stringlist>
+      <string>:/bluetooth.png</string>
+     </stringlist>
+    </property>
+   </widget>
+   <widget class="AxelPanel" name="axelpanel_11">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>255</y>
+      <width>158</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <widget class="AxelLabel" name="axelLabel_51">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>6</y>
+       <width>95</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>CONTROL</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="MultiImage" name="multiImage_3">
+     <property name="geometry">
+      <rect>
+       <x>108</x>
+       <y>4</y>
+       <width>45</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="imageList">
+      <stringlist>
+       <string>:/mic.png</string>
+      </stringlist>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_57">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>28</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ROOM</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_52">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>1</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_53">
+    <property name="geometry">
+     <rect>
+      <x>52</x>
+      <y>310</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>2</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_54">
+    <property name="geometry">
+     <rect>
+      <x>84</x>
+      <y>310</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>3</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_55">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>310</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>4</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_56">
+    <property name="geometry">
+     <rect>
+      <x>148</x>
+      <y>310</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>5</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_58">
+    <property name="geometry">
+     <rect>
+      <x>148</x>
+      <y>388</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>5</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelPanel" name="axelpanel_12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>333</y>
+      <width>158</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <widget class="AxelLabel" name="axelLabel_59">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>6</y>
+       <width>95</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>CONTROL</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="MultiImage" name="multiImage_4">
+     <property name="geometry">
+      <rect>
+       <x>108</x>
+       <y>4</y>
+       <width>45</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="imageList">
+      <stringlist>
+       <string>:/mic.png</string>
+      </stringlist>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_60">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>28</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ROOM</string>
+     </property>
+     <property name="colorOff">
+      <color alpha="0">
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_61">
+    <property name="geometry">
+     <rect>
+      <x>52</x>
+      <y>388</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>2</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_62">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>388</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>1</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_63">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>388</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>4</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_64">
+    <property name="geometry">
+     <rect>
+      <x>84</x>
+      <y>388</y>
+      <width>30</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>3</string>
+    </property>
+    <property name="colorOff">
+     <color>
+      <red>66</red>
+      <green>66</green>
+      <blue>66</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_65">
+    <property name="geometry">
+     <rect>
+      <x>478</x>
+      <y>452</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>MST</string>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_66">
+    <property name="geometry">
+     <rect>
+      <x>558</x>
+      <y>452</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>SUB</string>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_67">
+    <property name="geometry">
+     <rect>
+      <x>638</x>
+      <y>452</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>AUX1</string>
+    </property>
+   </widget>
+   <widget class="AxelLabel" name="axelLabel_68">
+    <property name="geometry">
+     <rect>
+      <x>718</x>
+      <y>452</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="textPrimary">
+     <string>AUX2</string>
+    </property>
+   </widget>
+   <widget class="VuMeter" name="vuMeter_11">
+    <property name="geometry">
+     <rect>
+      <x>486</x>
+      <y>250</y>
+      <width>33</width>
+      <height>190</height>
+     </rect>
+    </property>
+    <property name="maxValue">
+     <double>32.000000000000000</double>
+    </property>
+    <property name="decayValuePerSec">
+     <number>20</number>
+    </property>
+    <property name="id" stdset="0">
+     <string>vuMeter_11</string>
+    </property>
+    <property name="value" stdset="0">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="VuMeter" name="vuMeter_12">
+    <property name="geometry">
+     <rect>
+      <x>564</x>
+      <y>250</y>
+      <width>35</width>
+      <height>190</height>
+     </rect>
+    </property>
+    <property name="maxValue">
+     <double>32.000000000000000</double>
+    </property>
+    <property name="decayValuePerSec">
+     <number>20</number>
+    </property>
+    <property name="id" stdset="0">
+     <string>vuMeter_12</string>
+    </property>
+    <property name="value" stdset="0">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="VuMeter" name="vuMeter_13">
+    <property name="geometry">
+     <rect>
+      <x>644</x>
+      <y>250</y>
+      <width>35</width>
+      <height>190</height>
+     </rect>
+    </property>
+    <property name="maxValue">
+     <double>32.000000000000000</double>
+    </property>
+    <property name="decayValuePerSec">
+     <number>20</number>
+    </property>
+    <property name="id" stdset="0">
+     <string>vuMeter_13</string>
+    </property>
+    <property name="value" stdset="0">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="VuMeter" name="vuMeter_14">
+    <property name="geometry">
+     <rect>
+      <x>724</x>
+      <y>250</y>
+      <width>31</width>
+      <height>190</height>
+     </rect>
+    </property>
+    <property name="maxValue">
+     <double>32.000000000000000</double>
+    </property>
+    <property name="decayValuePerSec">
+     <number>20</number>
+    </property>
+    <property name="id" stdset="0">
+     <string>vuMeter_14</string>
+    </property>
+    <property name="value" stdset="0">
+     <double>0.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="AxelPanel" name="axelpanel_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>226</height>
+     </rect>
+    </property>
+    <property name="colorBg">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <widget class="AxelPanel" name="hpanel_7">
+     <property name="geometry">
+      <rect>
+       <x>551</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_9">
+     <property name="geometry">
+      <rect>
+       <x>646</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="id" stdset="0">
+      <string>vuMeter_9</string>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_40">
+     <property name="geometry">
+      <rect>
+       <x>566</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_23">
+     <property name="geometry">
+      <rect>
+       <x>256</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="hpanel_6">
+     <property name="geometry">
+      <rect>
+       <x>476</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_37">
+     <property name="geometry">
+      <rect>
+       <x>486</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_28">
+     <property name="geometry">
+      <rect>
+       <x>331</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_11">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="hpanel_1">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_41">
+     <property name="geometry">
+      <rect>
+       <x>566</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_44">
+     <property name="geometry">
+      <rect>
+       <x>646</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_5">
+     <property name="geometry">
+      <rect>
+       <x>331</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="numVuMeters">
+      <number>1</number>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_15">
+     <property name="geometry">
+      <rect>
+       <x>96</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_33">
+     <property name="geometry">
+      <rect>
+       <x>411</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_2">
+     <property name="geometry">
+      <rect>
+       <x>89</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch2</string>
+     </property>
+     <property name="textSecondary">
+      <string>MIC-2</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_26">
+     <property name="geometry">
+      <rect>
+       <x>256</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_49">
+     <property name="geometry">
+      <rect>
+       <x>721</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_20">
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_3">
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="numVuMeters">
+      <number>1</number>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_39">
+     <property name="geometry">
+      <rect>
+       <x>566</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_43">
+     <property name="geometry">
+      <rect>
+       <x>646</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_22">
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_3">
+     <property name="geometry">
+      <rect>
+       <x>167</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch3</string>
+     </property>
+     <property name="textSecondary">
+      <string>MIC-3</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_30">
+     <property name="geometry">
+      <rect>
+       <x>331</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_36">
+     <property name="geometry">
+      <rect>
+       <x>486</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_12">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="hpanel_5">
+     <property name="geometry">
+      <rect>
+       <x>396</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_6">
+     <property name="geometry">
+      <rect>
+       <x>411</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_48">
+     <property name="geometry">
+      <rect>
+       <x>721</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_4">
+     <property name="geometry">
+      <rect>
+       <x>256</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="numVuMeters">
+      <number>1</number>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_32">
+     <property name="geometry">
+      <rect>
+       <x>411</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_25">
+     <property name="geometry">
+      <rect>
+       <x>256</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_7">
+     <property name="geometry">
+      <rect>
+       <x>487</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="id" stdset="0">
+      <string>vuMeter_7</string>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch1</string>
+     </property>
+     <property name="textSecondary">
+      <string>MIC-1</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_13">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_5">
+     <property name="geometry">
+      <rect>
+       <x>323</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch5</string>
+     </property>
+     <property name="textSecondary">
+      <string>TELEPH</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_38">
+     <property name="geometry">
+      <rect>
+       <x>486</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_21">
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_50">
+     <property name="geometry">
+      <rect>
+       <x>721</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="hpanel_3">
+     <property name="geometry">
+      <rect>
+       <x>241</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_4">
+     <property name="geometry">
+      <rect>
+       <x>245</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch4</string>
+     </property>
+     <property name="textSecondary">
+      <string>MIC-4</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="hpanel_9">
+     <property name="geometry">
+      <rect>
+       <x>706</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_29">
+     <property name="geometry">
+      <rect>
+       <x>331</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_8">
+     <property name="geometry">
+      <rect>
+       <x>557</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch8</string>
+     </property>
+     <property name="textSecondary">
+      <string>DJPRO2</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_17">
+     <property name="geometry">
+      <rect>
+       <x>96</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_8">
+     <property name="geometry">
+      <rect>
+       <x>566</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="id" stdset="0">
+      <string>vuMeter_8</string>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_6">
+     <property name="geometry">
+      <rect>
+       <x>401</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch6</string>
+     </property>
+     <property name="textSecondary">
+      <string>MDISK</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="hpanel_2">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_35">
+     <property name="geometry">
+      <rect>
+       <x>486</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_31">
+     <property name="geometry">
+      <rect>
+       <x>411</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_2">
+     <property name="geometry">
+      <rect>
+       <x>96</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="numVuMeters">
+      <number>1</number>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_47">
+     <property name="geometry">
+      <rect>
+       <x>721</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_10">
+     <property name="geometry">
+      <rect>
+       <x>713</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch10</string>
+     </property>
+     <property name="textSecondary">
+      <string>CD-2</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_19">
+     <property name="geometry">
+      <rect>
+       <x>176</x>
+       <y>181</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DUCK</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_24">
+     <property name="geometry">
+      <rect>
+       <x>256</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_14">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_45">
+     <property name="geometry">
+      <rect>
+       <x>646</x>
+       <y>211</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>DYN</string>
+     </property>
+     <property name="colorOn">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_34">
+     <property name="geometry">
+      <rect>
+       <x>411</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_27">
+     <property name="geometry">
+      <rect>
+       <x>331</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_7">
+     <property name="geometry">
+      <rect>
+       <x>479</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch7</string>
+     </property>
+     <property name="textSecondary">
+      <string>DJPRO1</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_16">
+     <property name="geometry">
+      <rect>
+       <x>96</x>
+       <y>196</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>EQ</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="hpanel_8">
+     <property name="geometry">
+      <rect>
+       <x>631</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelPanel" name="hpanel_4">
+     <property name="geometry">
+      <rect>
+       <x>318</x>
+       <y>14</y>
+       <width>2</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>2</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="colorBg">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_9">
+     <property name="geometry">
+      <rect>
+       <x>635</x>
+       <y>9</y>
+       <width>70</width>
+       <height>45</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>Ch9</string>
+     </property>
+     <property name="textSecondary">
+      <string>CD-1</string>
+     </property>
+     <property name="extensionInt">
+      <number>2</number>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_46">
+     <property name="geometry">
+      <rect>
+       <x>646</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_1">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>50</y>
+       <width>49</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="numVuMeters">
+      <number>1</number>
+     </property>
+     <property name="id" stdset="0">
+      <string>vuMeter_1</string>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_42">
+     <property name="geometry">
+      <rect>
+       <x>566</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="VuMeter" name="vuMeter_10">
+     <property name="geometry">
+      <rect>
+       <x>721</x>
+       <y>50</y>
+       <width>52</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="maxValue">
+      <double>18.000000000000000</double>
+     </property>
+     <property name="decayValuePerSec">
+      <number>20</number>
+     </property>
+     <property name="id" stdset="0">
+      <string>vuMeter_10</string>
+     </property>
+     <property name="value" stdset="0">
+      <double>0.000000000000000</double>
+     </property>
+    </widget>
+    <widget class="AxelLabel" name="axelLabel_18">
+     <property name="geometry">
+      <rect>
+       <x>96</x>
+       <y>166</y>
+       <width>52</width>
+       <height>14</height>
+      </rect>
+     </property>
+     <property name="textPrimary">
+      <string>ACG</string>
+     </property>
+     <property name="colorOff">
+      <color>
+       <red>66</red>
+       <green>66</green>
+       <blue>66</blue>
+      </color>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>OnairclockWidget</class>
+   <extends>QWidget</extends>
+   <header>onairclockwidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelLabel</class>
+   <extends>QWidget</extends>
+   <header>axellabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MultiImage</class>
+   <extends>QWidget</extends>
+   <header>multiimage.h</header>
+  </customwidget>
+  <customwidget>
+   <class>VuMeter</class>
+   <extends>QWidget</extends>
+   <header>vumeter.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AxelPanel</class>
+   <extends>QWidget</extends>
+   <header>axelpanel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
